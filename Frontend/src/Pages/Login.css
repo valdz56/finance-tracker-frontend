@@ -1,0 +1,37 @@
+.core{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.latar{
+          background:#243246;
+    color:#F8FAFC;
+        border: none;
+        border-radius: 12px;
+    padding:27px 25px;
+}
+.permulaan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.judulh1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.judulh1 h1{
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+.text span{
+ font-weight: bold;
+ color:#22C55E;
+}

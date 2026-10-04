@@ -1,0 +1,220 @@
+.boddy{
+    width: 100%;
+}
+
+.judul{
+    width:980px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.judul button{
+    margin: 0;
+    padding: 15px 35px;
+    border-radius: 12px;
+    border: none;
+    background-color:#22C55E;
+    font-weight: bold;
+}
+.judul h1{
+    margin: 0;
+    padding: 0;
+}  
+.tanggal{
+     border:  1px solid #2E3A4B;
+     padding:20px 35px;
+     border-radius:18px;
+        background:#1f2c3f;
+}
+.tanggal button{
+    padding: 14px;
+    border:  1px solid #2E3A4B;
+    border-radius: 15px;
+     background:#3d4c61;
+     color: white;
+}
+table{
+    width:100%;
+    border-collapse:collapse;
+    margin-top: 30px;
+
+    background:#1f2c3f ;
+    border-radius: 18px;
+    padding: 20px;
+}
+th,
+td{
+    padding:12px;
+    text-align:center;
+
+} 
+.first-column{
+    display:flex;
+    flex-direction:column;
+    gap:4px;
+}
+th:nth-child(1),
+td:nth-child(1){
+    width:350px;
+    text-align: left;
+}
+.actions{
+ 
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    gap: 8px;
+}
+.expensetu{
+    display: flex;
+    flex-direction: column;
+    width: 85px;
+    justify-content: center;
+}
+.expensetu span{
+    
+   padding: 10px;
+    background:rgba(239,68,68,.15);
+    color:#EF4444;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.incometu{
+      display: flex;
+    flex-direction: column;
+    width: 85px;
+    justify-content: center;
+}
+.incometu span{
+      padding: 10px;
+     background: rgba(34, 197, 94, 0.2);
+     color: green;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.habis{
+    color: #EF4444;
+    font-weight: bold;
+}
+.sisa{
+    color:#22C55E;
+    font-weight: bold;
+}
+.edit,.hapus{
+
+     border:  1px solid #2E3A4B;
+    border-radius: 15px;
+     background:#3d4c61;
+     height:20px;
+    width:20px;
+    padding: 8px;
+}
+.overlay{
+    position: fixed;
+    inset:0;
+    display: flex;
+    justify-content: center;
+        background: rgba(0,0,0,.5);
+    align-items: center;
+ 
+
+}
+.popuphome{
+       background:#1f2c3f;
+       display: flex;
+       flex-direction: column;
+       justify-content: flex-start;
+       align-items: center;
+       padding: 7px 55px;
+       width: 400px;
+       border-radius: 20px;
+}
+.jadoel{
+    display: flex;
+    justify-content: space-between;
+    width: 450px;
+    margin-top: -20px;
+}
+.jadoel button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 25px;
+}
+.jadoel h1{
+    font-size: 30px;
+}
+.type{
+    width: 100%;
+}
+.typebutton{
+    display:flex;
+    background:#3d4c61;
+    border-radius:8px;
+  
+}
+.typebutton button{
+    flex:1;
+    padding:12px;
+    border:none;
+    background:transparent;
+    color:white;
+    border-radius:6px;
+    transition:.3s;
+    
+}
+
+.incomecug:hover{
+    background:#22C55E;
+}
+
+.expensecug:hover{
+    background:#EF4444;
+}
+.Amount,.category,.date,.note{
+    width: 100%;
+}
+.Amount input,.date input,.note textarea{
+    width: 92%;
+background:#3d4c61;
+border: none;
+border-radius: 8px;
+padding: 15px;
+color: white;
+}
+.category select,.category option{
+    width: 100%;
+background:#3d4c61;
+border: none;
+border-radius: 8px;
+padding: 15px;
+color: white;
+font-weight: bold;
+}
+.Buttonpart{
+    width: 100%;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.Buttonpart button{
+    width: 50%;
+}
+.Buttonpart button:first-child{
+    background:#EF4444;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+}
+
+.Buttonpart button:nth-child(2){
+background: #22C55E;
+ border: none;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: white;
+}

@@ -1,0 +1,190 @@
+
+
+.Navbar{
+    width:250px;
+    height:100vh;
+
+    display:flex;
+    flex-direction:column;
+
+    background:#171E2C;
+
+    border-right:1px solid #2E3A4B;
+}
+
+/* ===================== */
+
+.logo{
+
+    display:flex;
+    align-items:center;
+    gap:15px;
+
+    padding:25px;
+
+    border-bottom:1px solid #2E3A4B;
+}
+
+.logo h2{
+    color:white;
+    font-size:18px;
+}
+
+.logo-icon{
+
+    width:45px;
+    height:45px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    border-radius:12px;
+
+    background:#22C55E;
+
+    color:#111827;
+
+    font-size:22px;
+}
+
+/* ===================== */
+
+.profile{
+
+    display:flex;
+    align-items:center;
+    gap:15px;
+
+    padding:20px 25px;
+
+    border-bottom:1px solid #2E3A4B;
+}
+
+.avatar{
+
+    width:45px;
+    height:45px;
+
+    border-radius:50%;
+
+    background:#22C55E;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+    font-weight:bold;
+}
+
+.profile h4{
+
+    color:white;
+    margin:0;
+}
+
+.profile p{
+
+    color:#94A3B8;
+    margin:0;
+    font-size:13px;
+}
+
+/* ===================== */
+
+.menu-title{
+
+    padding:20px 20px 15px;
+
+    color:#64748B;
+
+    font-size:13px;
+
+    letter-spacing:2px;
+}
+
+/* ===================== */
+
+nav{
+
+    flex:1;
+}
+
+nav ul{
+
+    list-style:none;
+
+    margin:0px;
+    padding:0 15px;
+
+    display:flex;
+    flex-direction:column;
+    gap:5px;
+}
+
+nav li{
+
+    width:100%;
+}
+
+nav a{
+
+    display:flex;
+    align-items:center;
+    gap:12px;
+
+    padding:14px 10px;
+
+    text-decoration:none;
+
+    color:#CBD5E1;
+
+    border-radius:12px;
+
+    transition:.25s;
+}
+
+nav a:hover{
+
+    background:#243246;
+}
+
+nav a.active{
+
+    background:#22C55E;
+
+    color:#111827;
+
+    font-weight:600;
+}
+
+
+.logout{
+
+    margin:10px;
+
+    padding:20px;
+
+    border:none;
+
+    border-radius:12px;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+
+    background:#202B3C;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.2s;
+}
+
+.logout:hover{
+
+    background:#EF4444;
+}

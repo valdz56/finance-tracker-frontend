@@ -1,0 +1,234 @@
+.chart{
+    margin-top:30px;
+
+    display:grid;
+
+    grid-template-columns:2fr 1fr;
+
+    gap:24px;
+}
+
+.chartbatang{
+    background:#1f2c3f;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    height:430px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.chartbatang h1{
+    font-size: 30px;
+    
+}
+
+.categorychart{
+    background:#1f2c3f;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    height:430px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.suggestion{
+    margin-top:24px;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:24px;
+}
+
+.topspending{
+    background:#1f2c3f;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    min-height:300px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+.judulspending h1{
+    font-size: 25px;
+}
+.insight{
+    background:#1f2c3f;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    min-height:300px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+.progressCard{
+    margin-bottom:22px;
+}
+
+.progressHeader{
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:10px;
+
+    color:white;
+
+    font-weight:600;
+}
+
+.progressBar{
+    width:100%;
+
+    height:10px;
+
+    background:#374151;
+
+    border-radius:999px;
+
+    overflow:hidden;
+}
+
+.progressFill{
+    height:100%;
+
+    border-radius:999px;
+
+    background:linear-gradient(90deg,#22c55e,#3b82f6);
+
+    transition:.5s;
+}
+
+.progressCard p{
+    margin-top:10px;
+
+    color:#cbd5e1;
+}
+
+@media(max-width:1000px){
+
+    .chart{
+        grid-template-columns:1fr;
+    }
+
+    .suggestion{
+        grid-template-columns:1fr;
+    }
+
+}
+
+.information{
+    display: flex;
+    gap: 20px;
+    width: 950px;
+    
+}
+.totalbalance,.incomethis,.expensethis{
+    width: 33%;
+    border-radius: 20px;
+    
+    padding: 25px 30px;
+}
+.totalbalance h1,.incomethis h1{
+ color: green;
+}
+.expensethis h1{
+    color: red;
+}
+.totalbalance,.incomethis{
+    background: rgba(34, 197, 94, 0.2);
+  
+}
+.expensethis{
+      background:rgba(239,68,68,.15);
+   
+}
+.titod1,.titod2,.titod3{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.titod1 p,.titod2 p,.titod3 p{
+    padding: 0;
+    margin: 0;
+}
+.judulinsight{
+    display: flex;
+    gap: 20px;
+}
+.iconinsight{
+     
+     margin: 0;
+   
+     background-color: rgba(249, 245, 245, 0.25);
+     padding: 10px;
+     border-radius: 10px;
+}
+.judulinsight h1{
+    margin: 0;
+    padding: 0;
+}
+.total{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 15px;
+}
+.pengeluarann{
+        background-color: rgba(213, 158, 29, 0.15);
+       border: 1px solid white;
+    border-radius: 14px;
+    padding: 8px 12px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.pengeluaranterbesar{
+      background-color: rgba(197, 49, 49, 0.15);
+          border: 1px solid white;
+    border-radius: 14px;
+    padding: 8px 12px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+.saving{
+      background-color: rgba(65, 233, 85, 0.15);
+    
+           border: 1px solid white;
+    border-radius: 14px;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.shopping,.trendup,.bank{
+        background-color: rgba(141, 139, 139, 0.25);
+        padding: 10px;
+    border-radius: 14px;
+}
